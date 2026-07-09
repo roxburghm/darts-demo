@@ -1,0 +1,2804 @@
+{
+  "session_id": "0b7aa8638e3f",
+  "upload_id": "aaa665571b5d",
+  "filename": "redacted_SGSN-MME-Mobility-MM-E-2023-12-15-0000-2024-02-05-2355.csv",
+  "file_size": 193386676,
+  "file_type": "csv",
+  "total_chunks": 93,
+  "chunks_received": 93,
+  "status": "ready",
+  "created_at": "2026-07-06T16:00:15.018431+00:00",
+  "parsing_progress": 100,
+  "error": null,
+  "dataset": {
+    "session_id": "0b7aa8638e3f",
+    "filename": "redacted_SGSN-MME-Mobility-MM-E-2023-12-15-0000-2024-02-05-2355.csv",
+    "row_count": 171499,
+    "time_range": [
+      "2023-12-22 03:20:00",
+      "2024-02-05 23:55:00"
+    ],
+    "timestamp_column": "TimeStamp",
+    "dimension_columns": [
+      {
+        "name": "Counter Group",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "SGSN-MME_Mobility_MM_E",
+          "SGSN-MME_Mobility_MM_E",
+          "SGSN-MME_Mobility_MM_E",
+          "SGSN-MME_Mobility_MM_E",
+          "SGSN-MME_Mobility_MM_E"
+        ]
+      },
+      {
+        "name": "NE_VERSION",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "NODE_NAME",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "acm01bktmmk",
+          "acm01crommk",
+          "acm01ldsmmk",
+          "acm01ltnmmk",
+          "acm01wvnmmk"
+        ]
+      },
+      {
+        "name": "MOID",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "/system/mme-function",
+          "/system/mme-function",
+          "/system/mme-function",
+          "/system/mme-function",
+          "/system/mme-function"
+        ]
+      },
+      {
+        "name": "NETWORK_NAME",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "EE",
+          "EE",
+          "EE",
+          "EE",
+          "EE"
+        ]
+      },
+      {
+        "name": "MME_FUNCTION",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.IoT.MM.NbrConnectionSuspendedSub.NB",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachConnectionSuspendAtt.E",
+        "dtype": "object",
+        "null_count": 171498,
+        "null_pct": 1.0,
+        "sample_values": [
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachConnectionSuspendSucc.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachCpByConfigWhenUeReqUp.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachDecorAcceptUnsuppUe.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachDecorReject.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachDecorRerouteIn.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachDecorRerouteOut.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachLapiRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachNasCongestionControlRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachRejectDueToApnRestriction.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachRejectDueToAttachThrottling.E",
+        "dtype": "object",
+        "null_count": 171497,
+        "null_pct": 1.0,
+        "sample_values": [
+          "438.0",
+          "322.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachRejectedDueToGwOverload.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachUpByConfigWhenUeReqCp.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachUscRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttachWithESMDummyAtt.E",
+        "dtype": "object",
+        "null_count": 171498,
+        "null_pct": 1.0,
+        "sample_values": [
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachWithESMDummySucc.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttDetachDueToPgwResel.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttDetachHssPcscfInit.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttDetachMme.11.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttDetachMme.13.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttEnodebListPaging.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.AttProbabilisticEnbListPaging.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ConnectionResume.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ConnectionResumeFailure.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ConnectionResumeFailureDueToApnRestriction.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ConnectionSuspend.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ControlPlaneServiceReqNasCongestionControlRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ControlPlaneServiceReqRejectedDueToGwOverload.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.CPServiceReqUscDetached.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.CpsrRejectDueToApnRestriction.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.CsgAccessAtt.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.CsgAccessFail.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EmcAttachUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EmcExtServiceReqUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EmcInterTAUUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EmcIntraTAUUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EmcServiceReqUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.12.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.13.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ExtendedServiceReqAtt.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ExtendedServiceReqFail.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ExtServiceReqUscDetached.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ExtServiceReqUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ExtServiceReqUscRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterMmeTauDecorAcceptUnsuppUe.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterMmeTauDecorReject.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterMmeTauDecorRerouteIn.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterMmeTauDecorRerouteOut.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterTAUIpmrRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterTAUNasCongestionControlRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterTauRejectDueToApnRestriction.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterTAURejectedDueToGwOverload.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterTAUUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.InterTAUUscRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraMmeTauDecorAcceptUnsuppUe.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraMmeTauDecorReject.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraMmeTauDecorRerouteIn.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraMmeTauDecorRerouteOut.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraTAUNasCongestionControlRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraTauRejectDueToApnRestriction.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraTAURejectedDueToGwOverload.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraTAUUscDetached.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraTAUUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.IntraTAUUscRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReport.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReportControlChangeOfServiceCell.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReportControlMtlr.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReportControlStop.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReportFailureChangeOfServiceCell.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReportFailureMtlr.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.LocationReportMtlr.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.MoCsfbAttInNoCsServiceArea.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.MoSMSAttInNoCsServiceArea.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.NbrSdsAttachedSub.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.NonBroadcastedLAIUsed.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.PsPagingBypassQuarantineTimerAtt.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.PsPagingBypassQuarantineTimerSucc.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.PsPagingRestartBasedOnArpAtt.E",
+        "dtype": "object",
+        "null_count": 171493,
+        "null_pct": 1.0,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.PsPagingRestartBasedOnArpSucc.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.PublicWarningSystemDiscardedPagingMessage.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.S1ReleaseMBRTimeout",
+        "dtype": "object",
+        "null_count": 171497,
+        "null_pct": 1.0,
+        "sample_values": [
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "VS.MM.S1ReleaseStopHoRetryAttempts",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ServiceReqLapiRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ServiceReqNasCongestionControlRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ServiceReqRejectedDueToGwOverload.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ServiceReqUscDetached.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ServiceReqUscDiscarded.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.ServiceReqUscRejected.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SmsInMmePagingAtt.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SmsInMmePagingSucc.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SrvccCsAndPsToWAtt.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SrvccCsAndPsToWCsSuccPsFailed.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SrvccCsAndPsToWSucc.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SuccEnodebListPaging.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.SuccProbabilisticEnbListPaging.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauInterFail.12.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauInterFail.13.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauInterFail.14.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauInterSuccWithoutPDN.E",
+        "dtype": "object",
+        "null_count": 171498,
+        "null_pct": 1.0,
+        "sample_values": [
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauIntraFail.11.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauIntraFail.12.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauIntraFail.13.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "VS.MM.TauIntraFail.14.E",
+        "dtype": "object",
+        "null_count": 171499,
+        "null_pct": 1.0,
+        "sample_values": []
+      },
+      {
+        "name": "NODE_DEVICE_TYPE",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "ACM",
+          "ACM",
+          "ACM",
+          "ACM",
+          "ACM"
+        ]
+      },
+      {
+        "name": "NODE_POOL",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "01",
+          "01",
+          "01",
+          "01",
+          "01"
+        ]
+      },
+      {
+        "name": "NODE_LOCATION",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "BKT",
+          "CRO",
+          "LDS",
+          "LTN",
+          "WVN"
+        ]
+      },
+      {
+        "name": "NODE_CUSTOMER_TYPE",
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "MMK",
+          "MMK",
+          "MMK",
+          "MMK",
+          "MMK"
+        ]
+      }
+    ],
+    "metric_columns": [
+      {
+        "name": "VS.MM.AttachDoNasAtt.E",
+        "dtype": "float64",
+        "null_count": 60078,
+        "null_pct": 0.3503,
+        "sample_values": [
+          "27.0",
+          "20.0",
+          "12.0",
+          "24.0",
+          "9.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachDoNasSucc.E",
+        "dtype": "float64",
+        "null_count": 150070,
+        "null_pct": 0.875,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachEmcAtt.E",
+        "dtype": "float64",
+        "null_count": 64866,
+        "null_pct": 0.3782,
+        "sample_values": [
+          "48.0",
+          "46.0",
+          "32.0",
+          "17.0",
+          "20.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachEmcSucc.E",
+        "dtype": "float64",
+        "null_count": 68239,
+        "null_pct": 0.3979,
+        "sample_values": [
+          "9.0",
+          "20.0",
+          "8.0",
+          "7.0",
+          "18.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachLapiAtt.E",
+        "dtype": "float64",
+        "null_count": 66014,
+        "null_pct": 0.3849,
+        "sample_values": [
+          "7.0",
+          "7.0",
+          "5.0",
+          "2.0",
+          "9.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachRejectBeforeT3396Expiry.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachRejectDueToOutboundOlpGtpc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachRejectDueToSessionThrottling.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachServGapCtrlRejected.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachSuccWithoutPDN.E",
+        "dtype": "float64",
+        "null_count": 158251,
+        "null_pct": 0.9228,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttachThrottlingNonReservedGrantedAttach.E",
+        "dtype": "float64",
+        "null_count": 54110,
+        "null_pct": 0.3155,
+        "sample_values": [
+          "35676.0",
+          "34861.0",
+          "35347.0",
+          "35160.0",
+          "31918.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttAdaptivePagingInProfile.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttAttach.E",
+        "dtype": "float64",
+        "null_count": 37351,
+        "null_pct": 0.2178,
+        "sample_values": [
+          "35958.0",
+          "35293.0",
+          "35853.0",
+          "36064.0",
+          "32388.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttDetachDueToSgwResel.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttDetachMme",
+        "dtype": "float64",
+        "null_count": 55942,
+        "null_pct": 0.3262,
+        "sample_values": [
+          "6477.0",
+          "6525.0",
+          "6262.0",
+          "6432.0",
+          "5579.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttDetachMme.14.E",
+        "dtype": "float64",
+        "null_count": 169398,
+        "null_pct": 0.9877,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttDetachMme.15.E",
+        "dtype": "float64",
+        "null_count": 56455,
+        "null_pct": 0.3292,
+        "sample_values": [
+          "270.0",
+          "272.0",
+          "252.0",
+          "270.0",
+          "115.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttDetachUe.E",
+        "dtype": "float64",
+        "null_count": 54615,
+        "null_pct": 0.3185,
+        "sample_values": [
+          "5397.0",
+          "5574.0",
+          "5661.0",
+          "5400.0",
+          "5368.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttImsiDetachMme.E",
+        "dtype": "float64",
+        "null_count": 57995,
+        "null_pct": 0.3382,
+        "sample_values": [
+          "19.0",
+          "19.0",
+          "7.0",
+          "17.0",
+          "9.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttLastVisitedEnodebPaging.E",
+        "dtype": "float64",
+        "null_count": 49395,
+        "null_pct": 0.288,
+        "sample_values": [
+          "716403.0",
+          "730827.0",
+          "717168.0",
+          "717444.0",
+          "662205.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttLastVisitedTaPaging.E",
+        "dtype": "float64",
+        "null_count": 55413,
+        "null_pct": 0.3231,
+        "sample_values": [
+          "29803.0",
+          "30244.0",
+          "29868.0",
+          "30127.0",
+          "27269.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttPsPaging.E",
+        "dtype": "float64",
+        "null_count": 44378,
+        "null_pct": 0.2588,
+        "sample_values": [
+          "751716.0",
+          "767155.0",
+          "753050.0",
+          "753063.0",
+          "697577.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttServiceRequest.E",
+        "dtype": "float64",
+        "null_count": 36224,
+        "null_pct": 0.2112,
+        "sample_values": [
+          "10.0",
+          "2137133.0",
+          "2165537.0",
+          "2123027.0",
+          "2121747.0"
+        ]
+      },
+      {
+        "name": "VS.MM.AttTaListPaging.E",
+        "dtype": "float64",
+        "null_count": 49217,
+        "null_pct": 0.287,
+        "sample_values": [
+          "44640.0",
+          "45906.0",
+          "45600.0",
+          "45187.0",
+          "43254.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CliTriggeredPagingAtt.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CombiAttTauAcceptWithoutSmsOnlyForNonImsVopsUser.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ControlPlaneServiceReqRejectDueToOutboundOlpGtpc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ControlPlaneServiceRequestAtt.E",
+        "dtype": "float64",
+        "null_count": 127638,
+        "null_pct": 0.7442,
+        "sample_values": [
+          "30.0",
+          "18.0",
+          "31.0",
+          "30.0",
+          "41.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ControlPlaneServiceRequestFail.E",
+        "dtype": "float64",
+        "null_count": 171291,
+        "null_pct": 0.9988,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CPServiceReqUscDiscarded.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CPServiceReqUscRejected.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CPServReqServGapCtrlRejected.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CsfbPagingAtt.E",
+        "dtype": "float64",
+        "null_count": 56372,
+        "null_pct": 0.3287,
+        "sample_values": [
+          "334.0",
+          "391.0",
+          "347.0",
+          "348.0",
+          "222.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CsfbPagingSucc.E",
+        "dtype": "float64",
+        "null_count": 56430,
+        "null_pct": 0.329,
+        "sample_values": [
+          "291.0",
+          "304.0",
+          "308.0",
+          "294.0",
+          "157.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CsfbToWGAtt.E",
+        "dtype": "float64",
+        "null_count": 56195,
+        "null_pct": 0.3277,
+        "sample_values": [
+          "1168.0",
+          "1209.0",
+          "1190.0",
+          "1202.0",
+          "814.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CsfbToWGFailDueToDetach.E",
+        "dtype": "float64",
+        "null_count": 159023,
+        "null_pct": 0.9273,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.CsfbToWGSucc.E",
+        "dtype": "float64",
+        "null_count": 56293,
+        "null_pct": 0.3282,
+        "sample_values": [
+          "1061.0",
+          "1029.0",
+          "1099.0",
+          "1068.0",
+          "689.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.5.E",
+        "dtype": "float64",
+        "null_count": 145731,
+        "null_pct": 0.8497,
+        "sample_values": [
+          "3.0",
+          "1.0",
+          "5.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.6.E",
+        "dtype": "float64",
+        "null_count": 60591,
+        "null_pct": 0.3533,
+        "sample_values": [
+          "8.0",
+          "7.0",
+          "7.0",
+          "2.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.7.E",
+        "dtype": "float64",
+        "null_count": 56538,
+        "null_pct": 0.3297,
+        "sample_values": [
+          "22.0",
+          "26.0",
+          "21.0",
+          "20.0",
+          "38.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.8.E",
+        "dtype": "float64",
+        "null_count": 56507,
+        "null_pct": 0.3295,
+        "sample_values": [
+          "1079.0",
+          "1108.0",
+          "1184.0",
+          "1201.0",
+          "1022.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.11.E",
+        "dtype": "float64",
+        "null_count": 56530,
+        "null_pct": 0.3296,
+        "sample_values": [
+          "1964.0",
+          "1938.0",
+          "1922.0",
+          "1903.0",
+          "2824.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.14.E",
+        "dtype": "float64",
+        "null_count": 64105,
+        "null_pct": 0.3738,
+        "sample_values": [
+          "10.0",
+          "7.0",
+          "13.0",
+          "8.0",
+          "4.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.15.E",
+        "dtype": "float64",
+        "null_count": 39545,
+        "null_pct": 0.2306,
+        "sample_values": [
+          "4393.0",
+          "4164.0",
+          "4486.0",
+          "4395.0",
+          "3420.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.17.E",
+        "dtype": "float64",
+        "null_count": 56483,
+        "null_pct": 0.3293,
+        "sample_values": [
+          "841.0",
+          "866.0",
+          "901.0",
+          "844.0",
+          "588.0"
+        ]
+      },
+      {
+        "name": "VS.MM.EpsAttachFail.19.E",
+        "dtype": "float64",
+        "null_count": 56265,
+        "null_pct": 0.3281,
+        "sample_values": [
+          "9611.0",
+          "9261.0",
+          "9539.0",
+          "9704.0",
+          "7616.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ImeisvChange.E",
+        "dtype": "float64",
+        "null_count": 56458,
+        "null_pct": 0.3292,
+        "sample_values": [
+          "11.0",
+          "15.0",
+          "18.0",
+          "22.0",
+          "22.0"
+        ]
+      },
+      {
+        "name": "VS.MM.InterMmeInterSgwTauAtt.E",
+        "dtype": "float64",
+        "null_count": 137076,
+        "null_pct": 0.7993,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.InterMmeInterSgwTauSucc.E",
+        "dtype": "float64",
+        "null_count": 139553,
+        "null_pct": 0.8137,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.InterMmeIntraSgwTauAtt.E",
+        "dtype": "float64",
+        "null_count": 55762,
+        "null_pct": 0.3251,
+        "sample_values": [
+          "1110.0",
+          "1151.0",
+          "1113.0",
+          "1138.0",
+          "1042.0"
+        ]
+      },
+      {
+        "name": "VS.MM.InterMmeIntraSgwTauSucc.E",
+        "dtype": "float64",
+        "null_count": 55779,
+        "null_pct": 0.3252,
+        "sample_values": [
+          "1078.0",
+          "1109.0",
+          "1068.0",
+          "1102.0",
+          "1036.0"
+        ]
+      },
+      {
+        "name": "VS.MM.InterTAURejectDueToOutboundOlpGtpc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.IntraMmeInterSgwTauAtt.E",
+        "dtype": "float64",
+        "null_count": 109965,
+        "null_pct": 0.6412,
+        "sample_values": [
+          "2.0",
+          "2.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.IntraMmeInterSgwTauSucc.E",
+        "dtype": "float64",
+        "null_count": 110288,
+        "null_pct": 0.6431,
+        "sample_values": [
+          "2.0",
+          "2.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.IntraMmeIntraSgwTauAtt.E",
+        "dtype": "float64",
+        "null_count": 50466,
+        "null_pct": 0.2943,
+        "sample_values": [
+          "165862.0",
+          "164229.0",
+          "165139.0",
+          "162714.0",
+          "144409.0"
+        ]
+      },
+      {
+        "name": "VS.MM.IntraMmeIntraSgwTauSucc.E",
+        "dtype": "float64",
+        "null_count": 50466,
+        "null_pct": 0.2943,
+        "sample_values": [
+          "165792.0",
+          "164163.0",
+          "165085.0",
+          "162668.0",
+          "144399.0"
+        ]
+      },
+      {
+        "name": "VS.MM.IntraTAURejectDueToOutboundOlpGtpc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.LocationUpdateAtt.E",
+        "dtype": "float64",
+        "null_count": 54216,
+        "null_pct": 0.3161,
+        "sample_values": [
+          "120941.0",
+          "120050.0",
+          "120574.0",
+          "119848.0",
+          "116300.0"
+        ]
+      },
+      {
+        "name": "VS.MM.LocationUpdateSucc.E",
+        "dtype": "float64",
+        "null_count": 54217,
+        "null_pct": 0.3161,
+        "sample_values": [
+          "120143.0",
+          "119348.0",
+          "119945.0",
+          "119012.0",
+          "115939.0"
+        ]
+      },
+      {
+        "name": "VS.MM.MoCsfbRejectedDueToDummyCsfbService.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.MoCsfbToWGAtt.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.MoCsfbToWGSucc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.MtCsfbToWGAtt.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.MtCsfbToWGSucc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NasNonDeliveryIndication.E",
+        "dtype": "float64",
+        "null_count": 56350,
+        "null_pct": 0.3286,
+        "sample_values": [
+          "354.0",
+          "356.0",
+          "368.0",
+          "348.0",
+          "343.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NBPagingAtt.E",
+        "dtype": "float64",
+        "null_count": 158242,
+        "null_pct": 0.9227,
+        "sample_values": [
+          "1.0",
+          "7.0",
+          "7.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NBPagingSucc.E",
+        "dtype": "float64",
+        "null_count": 160513,
+        "null_pct": 0.9359,
+        "sample_values": [
+          "1.0",
+          "8.0",
+          "7.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedEmc.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "2.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedEmcUnauth.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedN1UEwith5GSSubs.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedN1UEwithout5GSSubs.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedNonN1UEwith5GSSubs.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedSub.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "1.0",
+          "2292752.0",
+          "2312674.0",
+          "2297423.0",
+          "2276752.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedSubCatM1.E",
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedSubConnectionSuspend.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedSubDoNas.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "24.0",
+          "22.0",
+          "28.0",
+          "18.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedSubHpaMps.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrActAttachedSubLapi.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "18.0",
+          "19.0",
+          "20.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrAttachedNr.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "1.0",
+          "828714.0",
+          "835011.0",
+          "830910.0",
+          "832720.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrAttachedNrCapable.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "1.0",
+          "966076.0",
+          "972270.0",
+          "968664.0",
+          "970485.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrAttachedNrForIncapableUE.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrAttachedPsm.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "6.0",
+          "7.0",
+          "4.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrConnectionSuspendedSub.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrCsAttachedSub.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "1.0",
+          "2290679.0",
+          "2310270.0",
+          "2295287.0",
+          "2274615.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrDisconnectedeNodeB.E",
+        "dtype": "float64",
+        "null_count": 4,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "15.0",
+          "15.0",
+          "15.0",
+          "15.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrEcmConnectedSub.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "221044.0",
+          "227543.0",
+          "220692.0",
+          "222240.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrHomeSub.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "3.0",
+          "2654759.0",
+          "2712227.0",
+          "2683763.0",
+          "2618012.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrSmsInMmeRegisteredSub.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrSubEmmRegisteredWithoutPDN.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "1.0",
+          "2.0",
+          "1.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrSubSupportEmmRegisteredWithoutPDN.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "10.0",
+          "7.0",
+          "7.0",
+          "8.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrVisitingForeign.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "447877.0",
+          "449761.0",
+          "450036.0",
+          "380916.0"
+        ]
+      },
+      {
+        "name": "VS.MM.NbrVisitingNatSub.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "828291.0",
+          "872747.0",
+          "860735.0",
+          "700150.0"
+        ]
+      },
+      {
+        "name": "VS.MM.PagingAvoidedDueToUeInPsm.E",
+        "dtype": "float64",
+        "null_count": 166181,
+        "null_pct": 0.969,
+        "sample_values": [
+          "4.0",
+          "1.0",
+          "4.0",
+          "7.0",
+          "3.0"
+        ]
+      },
+      {
+        "name": "VS.MM.PagingOutsideTaiListAtt.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.PagingOutsideTaiListSucc.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.RepeatPagingTimerExpired.E",
+        "dtype": "float64",
+        "null_count": 55195,
+        "null_pct": 0.3218,
+        "sample_values": [
+          "5883.0",
+          "6068.0",
+          "6263.0",
+          "6099.0",
+          "4772.0"
+        ]
+      },
+      {
+        "name": "VS.MM.RepeatPagingTimerStarted.E",
+        "dtype": "float64",
+        "null_count": 54972,
+        "null_pct": 0.3205,
+        "sample_values": [
+          "7569.0",
+          "7852.0",
+          "7919.0",
+          "7851.0",
+          "6331.0"
+        ]
+      },
+      {
+        "name": "VS.MM.RepeatPagingTimerStartedFirst.E",
+        "dtype": "float64",
+        "null_count": 55329,
+        "null_pct": 0.3226,
+        "sample_values": [
+          "3790.0",
+          "3970.0",
+          "3923.0",
+          "3946.0",
+          "3452.0"
+        ]
+      },
+      {
+        "name": "VS.MM.S1PagingMessages",
+        "dtype": "float64",
+        "null_count": 44695,
+        "null_pct": 0.2606,
+        "sample_values": [
+          "11838835.0",
+          "12157267.0",
+          "12034483.0",
+          "11981460.0",
+          "12099293.0"
+        ]
+      },
+      {
+        "name": "VS.MM.S1Release",
+        "dtype": "float64",
+        "null_count": 27591,
+        "null_pct": 0.1609,
+        "sample_values": [
+          "10.0",
+          "2304192.0",
+          "2331256.0",
+          "2288848.0",
+          "2287647.0"
+        ]
+      },
+      {
+        "name": "VS.MM.S1ReleasePreEmption",
+        "dtype": "float64",
+        "null_count": 133218,
+        "null_pct": 0.7768,
+        "sample_values": [
+          "2.0",
+          "2.0",
+          "1.0",
+          "2.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.S1ReleaseRadioConnectionLost",
+        "dtype": "float64",
+        "null_count": 55975,
+        "null_pct": 0.3264,
+        "sample_values": [
+          "2771.0",
+          "2684.0",
+          "2809.0",
+          "2668.0",
+          "1914.0"
+        ]
+      },
+      {
+        "name": "VS.MM.S1ReleaseUserInactivity",
+        "dtype": "float64",
+        "null_count": 36600,
+        "null_pct": 0.2134,
+        "sample_values": [
+          "10.0",
+          "2112711.0",
+          "2143407.0",
+          "2098771.0",
+          "2100005.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ServiceReqLapiAtt.E",
+        "dtype": "float64",
+        "null_count": 63471,
+        "null_pct": 0.3701,
+        "sample_values": [
+          "6.0",
+          "6.0",
+          "7.0",
+          "4.0",
+          "15.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ServiceReqRejectDueToOutboundOlpGtpc.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ServiceReqServGapCtrlRejected.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.ServiceRequestRejectDueToApnRestriction.E",
+        "dtype": "float64",
+        "null_count": 167230,
+        "null_pct": 0.9751,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SmsPagingAtt.E",
+        "dtype": "float64",
+        "null_count": 56286,
+        "null_pct": 0.3282,
+        "sample_values": [
+          "712.0",
+          "709.0",
+          "722.0",
+          "730.0",
+          "553.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SmsPagingSucc.E",
+        "dtype": "float64",
+        "null_count": 56351,
+        "null_pct": 0.3286,
+        "sample_values": [
+          "604.0",
+          "604.0",
+          "598.0",
+          "626.0",
+          "470.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SrvccCsOnlyToGAtt.E",
+        "dtype": "float64",
+        "null_count": 152572,
+        "null_pct": 0.8896,
+        "sample_values": [
+          "1.0",
+          "6.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SrvccCsOnlyToGSucc.E",
+        "dtype": "float64",
+        "null_count": 159744,
+        "null_pct": 0.9315,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SrvccCsOnlyToWAtt.E",
+        "dtype": "float64",
+        "null_count": 141649,
+        "null_pct": 0.8259,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SrvccCsOnlyToWSucc.E",
+        "dtype": "float64",
+        "null_count": 145425,
+        "null_pct": 0.848,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccAdaptivePagingInProfile.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccAttach.E",
+        "dtype": "float64",
+        "null_count": 53575,
+        "null_pct": 0.3124,
+        "sample_values": [
+          "16914.0",
+          "16895.0",
+          "16682.0",
+          "16868.0",
+          "16041.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccDetachMme",
+        "dtype": "float64",
+        "null_count": 55944,
+        "null_pct": 0.3262,
+        "sample_values": [
+          "6461.0",
+          "6489.0",
+          "6228.0",
+          "6397.0",
+          "5554.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccFirstPsPaging.E",
+        "dtype": "float64",
+        "null_count": 44931,
+        "null_pct": 0.262,
+        "sample_values": [
+          "720800.0",
+          "735703.0",
+          "722018.0",
+          "721726.0",
+          "669240.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccLastVisitedEnodebPaging.E",
+        "dtype": "float64",
+        "null_count": 49496,
+        "null_pct": 0.2886,
+        "sample_values": [
+          "686585.0",
+          "700530.0",
+          "687257.0",
+          "687299.0",
+          "634948.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccLastVisitedTaPaging.E",
+        "dtype": "float64",
+        "null_count": 56136,
+        "null_pct": 0.3273,
+        "sample_values": [
+          "20687.0",
+          "20940.0",
+          "20369.0",
+          "20736.0",
+          "19494.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccPsPaging.E",
+        "dtype": "float64",
+        "null_count": 44897,
+        "null_pct": 0.2618,
+        "sample_values": [
+          "743883.0",
+          "759033.0",
+          "744805.0",
+          "744950.0",
+          "691007.0"
+        ]
+      },
+      {
+        "name": "VS.MM.SuccTaListPaging.E",
+        "dtype": "float64",
+        "null_count": 50109,
+        "null_pct": 0.2922,
+        "sample_values": [
+          "36894.0",
+          "37865.0",
+          "37495.0",
+          "37205.0",
+          "36729.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TaLaMisconfigurationMscSupervision",
+        "dtype": "float64",
+        "null_count": 52893,
+        "null_pct": 0.3084,
+        "sample_values": [
+          "2167.0",
+          "1997.0",
+          "1843.0",
+          "2238.0",
+          "692.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterAtt.E",
+        "dtype": "float64",
+        "null_count": 50852,
+        "null_pct": 0.2965,
+        "sample_values": [
+          "1363.0",
+          "1429.0",
+          "1388.0",
+          "1388.0",
+          "1224.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterFail.6.E",
+        "dtype": "float64",
+        "null_count": 171471,
+        "null_pct": 0.9998,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterFail.8.E",
+        "dtype": "float64",
+        "null_count": 171421,
+        "null_pct": 0.9995,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterFail.9.E",
+        "dtype": "float64",
+        "null_count": 51456,
+        "null_pct": 0.3,
+        "sample_values": [
+          "253.0",
+          "278.0",
+          "275.0",
+          "250.0",
+          "181.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterFail.11.E",
+        "dtype": "float64",
+        "null_count": 170961,
+        "null_pct": 0.9969,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterFail.15.E",
+        "dtype": "float64",
+        "null_count": 57058,
+        "null_pct": 0.3327,
+        "sample_values": [
+          "31.0",
+          "41.0",
+          "45.0",
+          "36.0",
+          "7.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterFail.E",
+        "dtype": "float64",
+        "null_count": 51391,
+        "null_pct": 0.2997,
+        "sample_values": [
+          "284.0",
+          "320.0",
+          "321.0",
+          "286.0",
+          "188.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauInterSucc.E",
+        "dtype": "float64",
+        "null_count": 55780,
+        "null_pct": 0.3252,
+        "sample_values": [
+          "1078.0",
+          "1109.0",
+          "1068.0",
+          "1102.0",
+          "1036.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauIntraAtt.E",
+        "dtype": "float64",
+        "null_count": 50436,
+        "null_pct": 0.2941,
+        "sample_values": [
+          "167623.0",
+          "165970.0",
+          "167387.0",
+          "164584.0",
+          "145799.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauIntraFail.15.E",
+        "dtype": "float64",
+        "null_count": 56388,
+        "null_pct": 0.3288,
+        "sample_values": [
+          "962.0",
+          "1026.0",
+          "1301.0",
+          "1003.0",
+          "884.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauIntraSucc.E",
+        "dtype": "float64",
+        "null_count": 50467,
+        "null_pct": 0.2943,
+        "sample_values": [
+          "165792.0",
+          "164167.0",
+          "165085.0",
+          "162665.0",
+          "144395.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauIntraSuccWithoutPDN.E",
+        "dtype": "float64",
+        "null_count": 163129,
+        "null_pct": 0.9512,
+        "sample_values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauPeriodicAtt.E",
+        "dtype": "float64",
+        "null_count": 53954,
+        "null_pct": 0.3146,
+        "sample_values": [
+          "47766.0",
+          "46829.0",
+          "47476.0",
+          "45599.0",
+          "34772.0"
+        ]
+      },
+      {
+        "name": "VS.MM.TauPeriodicSucc.E",
+        "dtype": "float64",
+        "null_count": 53967,
+        "null_pct": 0.3147,
+        "sample_values": [
+          "47238.0",
+          "46278.0",
+          "46895.0",
+          "45066.0",
+          "34453.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UnsuccAttach.E",
+        "dtype": "float64",
+        "null_count": 39468,
+        "null_pct": 0.2301,
+        "sample_values": [
+          "17931.0",
+          "17377.0",
+          "18075.0",
+          "18078.0",
+          "15515.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UnsuccAttachCC27_28.E",
+        "dtype": "float64",
+        "null_count": 56526,
+        "null_pct": 0.3296,
+        "sample_values": [
+          "1347.0",
+          "1221.0",
+          "1308.0",
+          "1302.0",
+          "1150.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UnsuccAttachCC32_33.E",
+        "dtype": "float64",
+        "null_count": 56478,
+        "null_pct": 0.3293,
+        "sample_values": [
+          "1198.0",
+          "1175.0",
+          "1182.0",
+          "1208.0",
+          "1070.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UnsuccICSRInCPServiceReq.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UnsuccICSRInServiceReq.E",
+        "dtype": "float64",
+        "null_count": 1,
+        "null_pct": 0.0,
+        "sample_values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UnsuccServiceReq.E",
+        "dtype": "float64",
+        "null_count": 55483,
+        "null_pct": 0.3235,
+        "sample_values": [
+          "867.0",
+          "859.0",
+          "721.0",
+          "261.0",
+          "2862.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UpdateLocationAnsFail.5001",
+        "dtype": "float64",
+        "null_count": 56588,
+        "null_pct": 0.33,
+        "sample_values": [
+          "51.0",
+          "60.0",
+          "48.0",
+          "52.0",
+          "50.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UpdateLocationAnsFail.5004",
+        "dtype": "float64",
+        "null_count": 56535,
+        "null_pct": 0.3297,
+        "sample_values": [
+          "202.0",
+          "159.0",
+          "198.0",
+          "203.0",
+          "116.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UpdateLocationAnsFail.5420",
+        "dtype": "float64",
+        "null_count": 56535,
+        "null_pct": 0.3297,
+        "sample_values": [
+          "191.0",
+          "181.0",
+          "185.0",
+          "198.0",
+          "143.0"
+        ]
+      },
+      {
+        "name": "VS.MM.UpdateLocationAnsFail.5421",
+        "dtype": "float64",
+        "null_count": 56556,
+        "null_pct": 0.3298,
+        "sample_values": [
+          "25.0",
+          "25.0",
+          "23.0",
+          "26.0",
+          "7.0"
+        ]
+      }
+    ],
+    "skipped_header_lines": 0,
+    "kpi_definitions": [
+      {
+        "name": "succ_att",
+        "formula": "`VS.MM.SuccAttach.E` * 100 / `VS.MM.AttAttach.E`",
+        "description": ""
+      }
+    ]
+  }
+}

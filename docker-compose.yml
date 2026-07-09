@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    container_name: darts-anomaly-demo
+    ports:
+      - "8090:8000"
+    volumes:
+      - app_data:/app/data
+    environment:
+      - DAD_SESSION_TTL_HOURS=48
+      - DAD_MAX_UPLOAD_SIZE_MB=500
+      - HF_HUB_CACHE=/app/data/hf_cache
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  app_data:
